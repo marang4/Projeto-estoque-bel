@@ -1,0 +1,34 @@
+body{
+    max-width: 100%;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.div-tabela {
+    display: flex;
+    width: 100%;
+}
+
+.div-tabela table {
+    width: 100%;
+}
+
+.div-tabela table thead {
+    background-color: blue;
+    color: white;
+}
+
+.acoes {
+    display: flex;
+}
+
+.acoes-colunas {
+    padding-right: 10px;
+}
+
+.acoes-colunas i {
+    color: blue;
+}
